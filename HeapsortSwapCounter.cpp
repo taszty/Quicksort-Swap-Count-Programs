@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int swapCount = 0; //global varibale to count number of swaps
+// global variable accessible through whole file
+int swapCount = 0;
 
 // create heap method
 void heapify(int arr[], int n, int i)
