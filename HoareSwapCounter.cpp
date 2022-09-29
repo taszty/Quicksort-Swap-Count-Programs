@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// global counter to track swaps
+// global variable accessible through whole file
 int swapCount = 0;
 // actual quiucksort partition
 int hoarePartition(int arr[], int low, int high)
