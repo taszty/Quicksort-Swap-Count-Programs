@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// global variable accessible through whole file
+// global counter to track swaps
 int swapCount = 0;
 
 // create heap method
